@@ -9,7 +9,7 @@ Data Types in Python
 	- boolean
 	- None
 	- Set Types
-	- Mapping
+	- Mapping / Dictionary
 """
 
 age = 34
@@ -29,3 +29,26 @@ myAddress = {
     "Dist":"Dhaka"
 }
 
+"""
+Data Types Check
+    - int       ==> type()
+	- float     ==> type()
+	- complex   ==> type()
+	- string    ==> type()
+	- list      ==> type()
+	- tuple     ==> type()
+	- boolean   ==> type()
+	- None      ==> type()
+	- Set Types ==> type()
+	- Mapping / Dictionary  ==> type()
+"""
+print("Age Data Type is ",type(age))
+print("Taka Data Type is ",type(taka))
+print("i Data Type is ",type(i))
+print("Name Data Type is ",type(name))
+print("Fruits Data Type are ",type(fruits))
+print("Cities Data Type are ",type(cities))
+print("IsLogin Data Type is ",type(isLogin))
+print("MicrophoneModel Data Type is ",type(MicrophoneModel))
+print("BCsQuestionSet Data Type is",type(BCsQuestionSet))
+print("myAddress Data Type is",type(myAddress))
